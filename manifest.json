@@ -1,6 +1,6 @@
 {
-    "name": "two_square_game",
-    "short_name": "two_square_game",
+    "name": "Choose Two Squares",
+    "short_name": "Choose Two Squares",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
