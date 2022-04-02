@@ -62973,7 +62973,7 @@ A.Ls.prototype={
 G(a,b){return new A.H7(new A.a7H(this),!0,!0,B.G4,null)}}
 A.a7H.prototype={
 $0(){var s=null,r=A.a([A.afb(s,new A.a7F(),t.u9)],t.uJ)
-return A.cO(A.aqI(new A.vL(B.Gi,A.a([new A.C0()],t.tc),new A.a7G(this.a),"Choose Two Squares",A.ahZ(s,new A.oK(A.SQ(s,s,s,s,s,s,s,s,s,s,s,B.dg,s,s,s,s,s,s)),B.xb),!1,s),r),s,s)},
+return A.cO(A.aqI(new A.vL(B.Gi,A.a([new A.C0()],t.tc),new A.a7G(this.a),"Choose Two Squares",A.ahZ(s,new A.oK(A.SQ(s,s,s,s,s,s,s,s,s,s,s,B.dg,s,s,s,s,s,s)),B.xb),!1,s),r),960,480)},
 $S:376}
 A.a7F.prototype={
 $1(a){var s=new A.EJ(),r=t.r2.a($.S.j(0,$.abD()))
