@@ -44,31 +44,13 @@
   <link rel="stylesheet" type="text/css" href="splash/style.css">
 </head>
 <body>
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js"></script>
-
-        <!--Update with yours config-->
-
-<script>
-      const firebaseConfig = {
-        apiKey: "AIzaSyCynW95JqvcB4FUQx3M-W9cK2wdfOcn7f4",
-        authDomain: "two-square-game.firebaseapp.com",
-        projectId: "two-square-game",
-        storageBucket: "two-square-game.appspot.com",
-        messagingSenderId: "300159674679",
-        appId: "1:300159674679:web:8e9b5cc8092b02a06192b2",
-        measurementId: "G-067F8XRE3Y"
-    };
-      firebase.initializeApp(firebaseConfig);
-      </script>
-    <script src="main.dart.js" type="application/javascript"></script>
-   
+    
   
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '1544279748';
+    var serviceWorkerVersion = '1620284957';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -101,12 +83,7 @@
             if (!reg.active && (reg.installing || reg.waiting)) {
               // No active web worker and we have installed or are installing
               // one for the first time. Simply wait for it to activate.
-              if(reg.installing != null) {
-                waitForActivation(reg.installing);
-              }
-              if(reg.waiting != null) {
-                waitForActivation(reg.waiting);
-              }
+              waitForActivation(reg.installing || reg.waiting);
             } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
               // When the app updates the serviceWorkerVersion changes, so we
               // need to ask the service worker to update.
