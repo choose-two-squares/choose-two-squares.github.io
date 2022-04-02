@@ -62973,7 +62973,7 @@ A.Ls.prototype={
 G(a,b){return new A.H7(new A.a7H(this),!0,!0,B.G4,null)}}
 A.a7H.prototype={
 $0(){var s=null,r=A.a([A.afb(s,new A.a7F(),t.u9)],t.uJ)
-return A.cO(A.aqI(new A.vL(B.Gi,A.a([new A.C0()],t.tc),new A.a7G(this.a),"Choose Two Squares",A.ahZ(s,new A.oK(A.SQ(s,s,s,s,s,s,s,s,s,s,s,B.dg,s,s,s,s,s,s)),B.xb),!1,s),r),960,480)},
+return A.cO(A.aqI(new A.vL(B.Gi,A.a([new A.C0()],t.tc),new A.a7G(this.a),"Choose Two Squares",A.ahZ(s,new A.oK(A.SQ(s,s,s,s,s,s,s,s,s,s,s,B.dg,s,s,s,s,s,s)),B.xb),!1,s),r),s,s)},
 $S:376}
 A.a7F.prototype={
 $1(a){var s=new A.EJ(),r=t.r2.a($.S.j(0,$.abD()))
@@ -63161,12 +63161,12 @@ i=t.s
 h=t.fo
 g=h.i("bb.E")
 j=j?A.an(new A.ay(A.a(["Easy","Medium"],i),new A.a7f(),h),!0,g):A.an(new A.ay(A.a(["Easy","Medium","Hard"],i),new A.a7g(),h),!0,g)
-b=A.cO(new A.oH(j,q,new A.a7h(r),16,p,m,B.z3,B.az,45*o,!0,new A.kz(n>>>0),f,t.Af),55*s,140*(a/b))
+b=A.cO(new A.oH(j,q,new A.a7h(r),16,p,m,B.z3,B.az,45*o,!0,new A.kz(n>>>0),f,t.Af),55*s,250*(a/b))
 a=$.cN.cz().gi1()
 s=$.cN.cz()
 n=s.giX()
 s=A.b(s.a,e).a
-a=A.cO(A.m5(new A.bw(B.aP,A.d2("Play",$.fK(),f,f),f),new A.a7i(a0,r),f),50*a,200*(n/s))
+a=A.cO(A.m5(new A.bw(B.aP,A.d2("Play",$.fK(),f,f),f),new A.a7i(a0,r),f),50*a,250*(n/s))
 s=k&&!0
 r=k&&!0
 q=$.cN.cz().gi1()
@@ -63174,9 +63174,9 @@ p=$.cN.cz()
 o=p.giX()
 p=A.b(p.a,e).a
 n=t.p
-p=A.oO(A.iT(A.a([b,B.e0,a,new A.ok(s,new A.a7j(),new A.a7k(),f),new A.ok(r,new A.a7l(),new A.a7m(),f),B.e0,A.cO(A.m5(A.d2("How To Play",$.fK(),f,f),new A.a7n(a0),f),50*q,200*(o/p))],n),B.S,B.br,B.Z),4)
+p=A.oO(A.iT(A.a([b,B.e0,a,new A.ok(s,new A.a7j(),new A.a7k(),f),new A.ok(r,new A.a7l(),new A.a7m(),f),B.e0,A.cO(A.m5(A.d2("How To Play",$.fK(),f,f),new A.a7n(a0),f),50*q,250*(o/p))],n),B.S,B.br,B.Z),4)
 b=k&&!0?B.ur:B.kG
-a=k&&!0?B.Ed:B.Ee
+a=l>320&&l<400&&!0?B.Ed:B.Ee
 s=A.d2("Special Thanks :",$.Bi(),f,f)
 r=l>=400
 q=A.d2("Michelle Raouf",r&&!0?$.fK():$.k7(),f,f)
@@ -63210,7 +63210,7 @@ $S:49}
 A.a7m.prototype={
 $1(a){var s=$.cN.cz().gi1(),r=$.cN.cz(),q=r.giX()
 r=A.b(r.a,"uiSize").a
-return A.cO(A.m5(A.d2("Multiplayer",$.fK(),null,null),new A.a7e(),null),50*s,200*(q/r))},
+return A.cO(A.m5(A.d2("Multiplayer",$.fK(),null,null),new A.a7e(),null),50*s,250*(q/r))},
 $S:49}
 A.a7e.prototype={
 $0(){$.abM().jq("open",[u._])},
